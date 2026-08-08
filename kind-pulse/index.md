@@ -42,9 +42,23 @@ into the app. There is nowhere for it to go.
 
 ## Your information stays on your phone
 
-Everything you create — your reminders, the people they are for, your history,
-and your settings — is saved only on your phone. It is kept in an encrypted form,
-using your phone's own secure storage.
+Everything you create — your reminders, the people they are for, and your
+history — is saved only on your phone, in your phone's own encrypted secure
+storage.
+
+Two things sit outside that encryption, and we would rather tell you than not:
+
+- **A reminder that is waiting to notify you.** So that it still arrives even if
+  you restart your phone, your phone keeps its own copy of that notification's
+  wording — the person's name, and what you planned to do. It is removed as soon
+  as the notification has been shown, or when you complete or delete the
+  reminder.
+- **Simple settings**, such as your chosen theme, your snooze length, and
+  whether you have been through the welcome screens. These say nothing about you
+  or about the people you care about.
+
+Both of these are kept in an area of your phone that only Kind Pulse can open,
+and neither is ever sent anywhere.
 
 Kind Pulse itself never connects to the internet. The only part that can go
 online is Google's payment system, and only if you choose to make a donation.
@@ -67,6 +81,10 @@ a reminder to a person, and lets the app notice birthdays.
 
 Reminders appear through your phone's own notifications. Nothing about them leaves
 your phone.
+
+Like any other app's notifications, a reminder can appear on your lock screen. If
+you would rather it did not, your phone's own notification settings let you hide
+notification contents there.
 
 ## Backups you make
 
@@ -106,4 +124,4 @@ with a new date at the bottom.
 
 If you have any questions about this policy, you can contact the developer.
 
-<p class="kp-updated">Last updated: 5 August 2026</p>
+<p class="kp-updated">Last updated: 8 August 2026</p>
