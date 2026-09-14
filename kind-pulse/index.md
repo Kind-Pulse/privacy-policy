@@ -124,4 +124,4 @@ with a new date at the bottom.
 
 If you have any questions about this policy, you can contact the developer.
 
-<p class="kp-updated">Last updated: 29 August 2026</p>
+<p class="kp-updated">Last updated: 14 September 2026</p>
