@@ -1,5 +1,5 @@
 ---
-title: Kind Pulse - Privacy Policy
+title: KindPulse - Privacy Policy
 ---
 
 <style>
@@ -29,15 +29,15 @@ title: Kind Pulse - Privacy Policy
 }
 </style>
 
-## PRIVACY POLICY — KIND PULSE
+## PRIVACY POLICY — KINDPULSE
 
-**In short: Kind Pulse keeps everything on your phone. It has no accounts and no
+**In short: KindPulse keeps everything on your phone. It has no accounts and no
 servers. We never see your information, because it is never sent anywhere.**
 
 ## What we collect
 
 Nothing. There are no accounts, no sign-in, no analytics, no ads, and no
-tracking. We — the people who made Kind Pulse — never receive anything you put
+tracking. We — the people who made KindPulse — never receive anything you put
 into the app. There is nowhere for it to go.
 
 ## Your information stays on your phone
@@ -57,16 +57,16 @@ Two things sit outside that encryption, and we would rather tell you than not:
   whether you have been through the welcome screens. These say nothing about you
   or about the people you care about.
 
-Both of these are kept in an area of your phone that only Kind Pulse can open,
+Both of these are kept in an area of your phone that only KindPulse can open,
 and neither is ever sent anywhere.
 
-Kind Pulse itself never connects to the internet. The only part that can go
+KindPulse itself never connects to the internet. The only part that can go
 online is Google's payment system, and only if you choose to make a donation.
 Nothing you enter into the app is ever sent to us or to anyone else.
 
 ## Your contacts
 
-If you allow it, Kind Pulse reads your contacts on your phone. This lets you link
+If you allow it, KindPulse reads your contacts on your phone. This lets you link
 a reminder to a person, and lets the app notice birthdays.
 
 - Your contacts are never uploaded or sent anywhere.
@@ -88,7 +88,7 @@ notification contents there.
 
 ## Backups you make
 
-Kind Pulse lets you save a backup of your reminders. The backup file is
+KindPulse lets you save a backup of your reminders. The backup file is
 encrypted, and it is saved wherever you choose on your device. It belongs to you.
 We never see it and have no way to reach it.
 
@@ -98,7 +98,7 @@ safe.
 
 ## Donations
 
-Donations are optional. Kind Pulse is free, and nothing in it is locked behind a
+Donations are optional. KindPulse is free, and nothing in it is locked behind a
 payment.
 
 If you choose to donate, the payment is handled entirely by Google Play. We never
@@ -107,12 +107,12 @@ can use the internet at all.
 
 ## Deleting everything
 
-Uninstalling Kind Pulse removes everything it saved on your phone. There is no
+Uninstalling KindPulse removes everything it saved on your phone. There is no
 copy anywhere else to delete, because one was never made.
 
 ## Children
 
-Kind Pulse is not aimed at children, and it collects no personal information from
+KindPulse is not aimed at children, and it collects no personal information from
 anyone.
 
 ## Changes to this policy
@@ -124,4 +124,4 @@ with a new date at the bottom.
 
 If you have any questions about this policy, you can contact the developer.
 
-<p class="kp-updated">Last updated: 5 October 2026</p>
+<p class="kp-updated">Last updated: 16 October 2026</p>
