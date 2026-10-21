@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<title>Back to KindPulse</title>
+<style>
+  :root { color-scheme: light dark; --bg: #ffffff; --text: #1a1a1a; --soft: #5f6368; --accent: #26b3e7; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121212; --text: #ffffff; --soft: #a0a0a0; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, sans-serif; }
+  main { max-width: 420px; margin: 0 auto; padding: 48px 16px; text-align: center; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  p { color: var(--soft); margin: 0 0 24px; }
+  a.btn { display: inline-block; padding: 12px 22px; border-radius: 24px; background: var(--accent); color: #04202c; font-weight: 700; text-decoration: none; }
+  .small { font-size: 13px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Back to KindPulse</h1>
+  <p id="msg">Opening KindPulse…</p>
+  <a id="go" class="btn" href="#">Return to KindPulse</a>
+  <p class="small">This page only hands your Todoist sign-in back to the KindPulse app on this phone. Nothing is stored here.</p>
+</main>
+<script>
+  // Todoist allows only https redirects, so it lands here; the app's own
+  // address takes it from here. The code is useless without the secret the
+  // app keeps in memory (PKCE). lib/src/cal/connect_flow.dart.
+  (function () {
+    var q = location.search || '';
+    var go = document.getElementById('go');
+    if (!/[?&](code|error)=/.test(q)) {
+      document.getElementById('msg').textContent = 'Nothing to hand back. Start again in KindPulse.';
+      go.style.display = 'none';
+      return;
+    }
+    var link = 'intent://oauth/todoist' + q + '#Intent;scheme=kindpulse;package=com.kindpulse.app;end';
+    go.href = link;
+    location.replace(link);
+  })();
+</script>
+</body>
+</html>

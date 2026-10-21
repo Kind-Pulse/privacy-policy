@@ -1,0 +1,9 @@
+{
+  "client_id": "https://kind-pulse.github.io/privacy-policy/oauth/todoist-client.json",
+  "client_name": "KindPulse",
+  "client_uri": "https://kind-pulse.github.io/privacy-policy/kind-pulse/",
+  "redirect_uris": ["https://kind-pulse.github.io/privacy-policy/oauth/todoist/"],
+  "grant_types": ["authorization_code"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
